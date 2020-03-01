@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+// reset
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#newsletter-container {
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    // max-width: 90%;  // take up 90% of the window width
+    
+    header {
+        
+        .top-line {
+            background-color: #008EBB;
+            padding: 2px;
+            border: none;
+        }
+        
+        h2 {
+            color: #008EBB;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        
+        .bottom-line {
+            background-color: #87E3FF;
+            padding: 1px;
+            border: none;
+        }
+    }
+    
+    #details {
+        margin-top: 1rem;
+        
+        p {
+            color: #989898;
+        }
+        
+        form {
+            
+            .options {
+                margin-top: 1rem;
+                
+                label {
+                    color: #989898;
+                    margin-left: 0.4rem;
+                }
+                
+                &:nth-child(2) {
+                    margin-top: 1rem;
+                }
+            }
+            
+            textarea {
+                width: 100%;
+                margin-top: 1.3rem;
+                color: #989898;
+                border-radius: 8px;
+                padding: 1rem;
+            }
+            
+            #button {
+                background-color: #008EBB;
+                margin-top: 0.7rem;
+                padding: 0.8rem;
+                border-radius: 8px;
+                
+                input {
+                    width: 100%;
+                    background-image: linear-gradient(to bottom, #87E3FF, #008EBB);
+                    border: none;
+                    color: white;
+                    padding: 0.7rem;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    border-radius: 8px;
+                    text-transform: uppercase;
+                    text-shadow: 1px 1px black;
+                    box-shadow: 0 4px black;
+                }
+            }
+        }
+    }
+}

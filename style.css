@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#newsletter-container {
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+}
+
+#newsletter-container header .top-line {
+  background-color: #008EBB;
+  padding: 2px;
+  border: none;
+}
+
+#newsletter-container header h2 {
+  color: #008EBB;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+#newsletter-container header .bottom-line {
+  background-color: #87E3FF;
+  padding: 1px;
+  border: none;
+}
+
+#newsletter-container #details {
+  margin-top: 1rem;
+}
+
+#newsletter-container #details p {
+  color: #989898;
+}
+
+#newsletter-container #details form .options {
+  margin-top: 1rem;
+}
+
+#newsletter-container #details form .options label {
+  color: #989898;
+  margin-left: 0.4rem;
+}
+
+#newsletter-container #details form .options:nth-child(2) {
+  margin-top: 1rem;
+}
+
+#newsletter-container #details form textarea {
+  width: 100%;
+  margin-top: 1.3rem;
+  color: #989898;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+#newsletter-container #details form #button {
+  background-color: #008EBB;
+  margin-top: 0.7rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+#newsletter-container #details form #button input {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#87E3FF), to(#008EBB));
+  background-image: linear-gradient(to bottom, #87E3FF, #008EBB);
+  border: none;
+  color: white;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px black;
+  -webkit-box-shadow: 0 4px black;
+          box-shadow: 0 4px black;
+}
+/*# sourceMappingURL=style.css.map */
